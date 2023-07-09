@@ -1,5 +1,6 @@
 NEWSPAGEDATA=()=>{
     const HOMEPAGEDIV=document.querySelector('.HomePageDiv')
+    
     fetch('https://ecorpcompanygroupchatlander.github.io/tuneziki/NewsPage.json')
     .then(res=>res.json())
     .then(data=>{
@@ -25,7 +26,11 @@ NEWSPAGEDATA=()=>{
              HOMENEWSTIME.classList.add('HOMENEWSTIME')
              HOMENEWSTIME.innerHTML=element.NewsTime
 
-
+             //ADD FUNCTION READ FULLPOST
+             HOMENEWSDIV.addEventListener('click',()=>{
+                OPENPOST(element)
+                
+             })
             //APPEND IT TO DIV
             HOMENEWSDIV.append(HOMENEWSIMAGE)
             HOMENEWSDIV.append(HOMENEWSTITLE)

@@ -21,6 +21,13 @@ HOMEPAGE=()=>{
 
         </footer>
 
+        <div class='newsDiv'>
+        <img src='../ICONS/close.png' class='FooterIcons' onclick='CLOSEREADPOST()'>
+        <img src='' class='NewsImage' >
+        <p class='newTitle'></p>
+        <p class='newStory'></p>
+        </div>
+
     `
     NEWSPAGEDATA()
 }
