@@ -20,15 +20,15 @@
 
 .ARTISTDIVS{
     position: relative;
-    width: 200px;
+    width: 180px;
     height:auto;
     margin-top: 3%;
-    border-radius: 100%;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     display: inline-flex;
     margin-inline: 1%;
-    background: black;
+    background: transparent;
 }
 
 .TRENDINGARTISTIMAGE{
@@ -39,6 +39,7 @@
     bottom: 0;
     display: block;
     display: block;
+    border-radius: 20px;
 }
 
 .TRENDINGARTISTNAME{
