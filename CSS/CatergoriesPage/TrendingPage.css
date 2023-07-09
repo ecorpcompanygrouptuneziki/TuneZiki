@@ -29,6 +29,7 @@
     display: inline-flex;
     margin-inline: 1%;
     background: transparent;
+    border: none;
 }
 
 .TRENDINGARTISTIMAGE{
