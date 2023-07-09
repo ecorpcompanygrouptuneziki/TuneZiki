@@ -6,7 +6,7 @@ TRENDINGARTISTS=()=>{
         data.reverse()
         data.forEach(element => {
             //DIV FOR NEWS
-            let HOMENEWSDIV=document.createElement('div')
+            let HOMENEWSDIV=document.createElement('button')
             HOMENEWSDIV.classList.add('ARTISTDIVS')
             //NEWS TITLE
             let HOMENEWSTITLE=document.createElement('h1')

@@ -3,8 +3,10 @@
     width: 100px;
     height: 100px;
     margin-top: 1%;
-    left: 3%;
-    right: 3%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    left: 5%;
+    right: 5%;
     border-radius: 10px;
     display: inline-table;
     margin-inline: 1%;
