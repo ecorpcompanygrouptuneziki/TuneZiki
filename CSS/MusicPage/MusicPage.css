@@ -1,7 +1,7 @@
 .ARTISTDIV{
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     margin-top: 1%;
     left: 3%;
     right: 3%;
@@ -14,8 +14,8 @@
 .ARTISTIMAGE{
     position: relative;
     top: 0;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     bottom: 0;
     display: block;
     display: block;
