@@ -1,0 +1,17 @@
+.FindInput{
+    position: relative;
+    width: 70%;
+    margin-top:auto;
+    margin-bottom: auto;
+    background: transparent;
+    border-radius: 20px;
+    display: block;
+    padding: 2%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color:gainsboro;
+    left: 5%;
+}
+
+

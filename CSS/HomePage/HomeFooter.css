@@ -1,0 +1,15 @@
+.FooterIcons{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#Movies{
+    transform: rotate(90deg);
+}

@@ -1,0 +1,60 @@
+.AppLogo{
+    position: relative;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 30px;
+    color: teal;
+    font-style: italic;
+}
+
+.LogInButton{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    left: 10%;
+    margin-top: 1rem;
+    background: blue;
+}
+
+.AppLogo1{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5%;
+    color: teal;
+}
+
+.AppLogo2{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10%;
+    font-size: 25px;
+    color: teal;
+}
+
+.LoginWith{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 180px;
+    background: #000033;
+    display: block;   
+}
+
+.LogInButton1{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    left: 10%;
+    margin-top: 1rem;
+    background: blue;
+}

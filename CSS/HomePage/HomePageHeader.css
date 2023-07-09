@@ -1,0 +1,25 @@
+.App_Name{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: auto;
+    font-size: 30px;
+    font-style: italic;
+    color:teal;
+}
+
+.HeaderIcon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 5%;
+    right: 5%;
+}
+
+.BackIcon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 5%;
+    left: 1%; 
+}

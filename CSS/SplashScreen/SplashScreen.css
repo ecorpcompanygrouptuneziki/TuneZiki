@@ -1,0 +1,8 @@
+.AppName{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    top: 45%;
+    color: teal;
+}
