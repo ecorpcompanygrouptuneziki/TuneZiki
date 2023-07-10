@@ -75,7 +75,7 @@
     left: 10%;
     background-color: rgb(14, 1, 59);
     border-radius: 10px;
-    border: 1px  rgb(4, 2, 19);
+    border:none;
     height: 50px;
     bottom: 0;
     display: inline-flex;
