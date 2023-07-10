@@ -110,11 +110,10 @@
 .ClosePostIcon{
     position: absolute;
     width: 25px;
-    top: 0;
+    top: 2%;
     height: 25px;
     left: 2%;
     text-align: center;
-    margin-top: 1em;
 }
 .newsDiv{
     position: fixed;
