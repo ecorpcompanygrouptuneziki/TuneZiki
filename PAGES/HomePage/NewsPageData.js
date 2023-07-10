@@ -26,9 +26,9 @@ NEWSPAGEDATA=()=>{
              HOMENEWSTIME.classList.add('HOMENEWSTIME')
              HOMENEWSTIME.innerHTML=element.NewsTime
              //CREATE A READMORE BUTTON
-             let HOMENEWSTIMEBUTTON=document.createElement('button')
+             let HOMENEWSTIMEBUTTON=document.createElement('div')
              HOMENEWSTIMEBUTTON.classList.add('HOMENEWSTIMEBUTTON')
-             HOMENEWSTIMEBUTTON.innerHTML='READ MORE';
+             HOMENEWSTIMEBUTTON.innerHTML=`<h1 class='READMORE'>READ MORE</h1>`;
 
              //ADD FUNCTION READ FULLPOST
              HOMENEWSTIMEBUTTON.addEventListener('click',()=>{
