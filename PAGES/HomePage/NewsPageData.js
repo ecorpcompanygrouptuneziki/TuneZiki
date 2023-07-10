@@ -25,17 +25,21 @@ NEWSPAGEDATA=()=>{
              let HOMENEWSTIME=document.createElement('h1')
              HOMENEWSTIME.classList.add('HOMENEWSTIME')
              HOMENEWSTIME.innerHTML=element.NewsTime
+             //CREATE A READMORE BUTTON
+             let HOMENEWSTIMEBUTTON=document.createElement('button')
+             HOMENEWSTIMEBUTTON.classList.add('HOMENEWSTIMEBUTTON')
+             HOMENEWSTIMEBUTTON.innerHTML='READ MORE';
 
              //ADD FUNCTION READ FULLPOST
-             HOMENEWSDIV.addEventListener('click',()=>{
-                OPENPOST(element)
-                
+             HOMENEWSTIMEBUTTON.addEventListener('click',()=>{
+                OPENPOST(element)  
              })
             //APPEND IT TO DIV
             HOMENEWSDIV.append(HOMENEWSIMAGE)
             HOMENEWSDIV.append(HOMENEWSTITLE)
             HOMENEWSDIV.append(HOMENEWSTIME)
             HOMENEWSDIV.append(HOMENEWSTORY)
+            HOMENEWSDIV.append(HOMENEWSTIMEBUTTON)
             HOMEPAGEDIV.append(HOMENEWSDIV)
         });
         

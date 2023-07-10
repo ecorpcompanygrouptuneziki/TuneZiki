@@ -29,7 +29,7 @@
     overflow: hidden;
     top: 0;
     bottom: 0;
-    box-shadow: inset 0px 0px 5px 0px teal;
+    box-shadow: inset 0px 0px 5px 0px rgb(1, 1, 40);
 }
 
 .HOMENEWSTITLE{
@@ -41,7 +41,7 @@
     margin-top: 1%;
     width: 50%;
     left: 20%;
-    box-shadow: inset 0px 0px 2px 0px rgb(23, 0, 75);
+    box-shadow: inset 0px 0px 5px 0px rgb(1, 1, 40);
     border-radius: 20px;
 }
 
@@ -59,13 +59,26 @@
     width: 95%;
     padding: 2%;
     text-align: left;
-    height: 131px;
+    height: 100px;
     background: transparent;
     font-style: italic;
     word-wrap: break-word;
     display: block;
+    color: gainsboro;
     margin-top: 1rem;
-    box-shadow: inset 0px 0px 5px 0px rgb(18, 1, 66);
+    box-shadow: inset 0px 0px 5px 0px rgb(1, 1, 40);
+}
+
+.HOMENEWSTIMEBUTTON{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    background-color: rgb(14, 1, 59);
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    bottom: 0;
+    color: #64648b;
 }
 
 .HOMENEWSTIME{
