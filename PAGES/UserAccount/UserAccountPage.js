@@ -14,8 +14,6 @@ USERACCOUNTPAGE=()=>{
         <div class='MyProfile'>
 
             <img src='../ICONS/logout.png' class='MYPROFILEIMAGE'>
-
-            <img src='../ICONS/post.png' class='UPDATEPROFILEIMAGE'>
         
         </div>
 
