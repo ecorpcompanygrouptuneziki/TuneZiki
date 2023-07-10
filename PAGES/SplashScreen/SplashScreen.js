@@ -8,6 +8,6 @@ SPLASHSCREEN=()=>{
     </div>
     `
     setTimeout(() => {
-      // LOGINPAGE()
+      LOGINPAGE()
     }, 2000);
 }
