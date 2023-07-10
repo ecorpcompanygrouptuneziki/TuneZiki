@@ -1,8 +1,27 @@
 .AppName{
     position: relative;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     top: 45%;
+    color: teal;
+}
+
+.CompanyName{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: #010128;
+    display: inline-flex;
+    bottom: 0;
+}
+
+.CompanyNameApp{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
     color: teal;
 }
