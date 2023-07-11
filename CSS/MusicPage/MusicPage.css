@@ -67,7 +67,7 @@
    position: fixed;
    background: rgb(1, 1, 40);
    width: 100%;
-   height: auto;
+   height: 0%;
    bottom: 0;
    display: block;
    overflow-y: auto;
