@@ -5,7 +5,7 @@ MUSICPAGE=()=>{
 
             <img src='../ICONS/back.png' class='BackIcon' onclick='HOMEPAGE()'>
             
-            <img src='../ICONS/list.png' class='HeaderIcon' onclick='NOWPLAYING()'>
+            <img src='../ICONS/list.png' class='HeaderIcon' id='NowPlaying' onclick='NOWPLAYING()'>
 
         </header>
 

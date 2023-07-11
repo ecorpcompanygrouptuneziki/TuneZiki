@@ -1,6 +1,7 @@
 ARTISTPAGE=()=>{
     const HOMEPAGEDIV=document.querySelector('#ArtistPage')
     let ArtistSongs=document.querySelector('.ArtistSongs')
+    let NowPlaying=document.querySelector('#NowPlaying')
     fetch('https://ecorpcompanygrouptuneziki.github.io/TuneZiki/JSON/MusicPageJson/Artists.json')
     .then(res=>res.json())
     .then(data=>{
@@ -23,6 +24,7 @@ ARTISTPAGE=()=>{
 
             //OPEN ARTISTS SONGS
             HOMENEWSDIV.addEventListener('click',()=>{
+                NowPlaying.style.display='block'
                 ArtistSongs.style.height=100+'%'
                 SONGS(element)
             })
