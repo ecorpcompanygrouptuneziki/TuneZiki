@@ -24,7 +24,7 @@ ARTISTPAGE=()=>{
             //OPEN ARTISTS SONGS
             HOMENEWSDIV.addEventListener('click',()=>{
                 ArtistSongs.style.height=100+'%'
-                ARTISTSONGS(element)
+                SONGS(element)
             })
 
             
