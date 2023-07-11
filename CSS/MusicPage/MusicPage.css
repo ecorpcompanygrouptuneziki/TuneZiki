@@ -65,8 +65,9 @@
 
 .ArtistSongs{
    position: fixed;
+   background: rgb(1, 1, 40);
    width: 100%;
-   height: 0%;
+   height: auto;
    bottom: 0;
    display: block;
    overflow-y: auto;
@@ -74,13 +75,13 @@
 }
 
 .ArtistImage{
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: auto;
+    height: 50%;
     background: transparent;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    top: 50px;
+    top: 30px;
     overflow: hidden;
 }
 
@@ -94,9 +95,9 @@
     width: 95%;
     left: 2%;
     border-radius: 10px;
-    background-color: rgb(8, 0, 56);
+    background-color:transparent;
     top: 10%;
-    height: auto;
+    height: 30%;
     overflow-y: auto;
     overflow-x: hidden;
     bottom: 0;
@@ -117,40 +118,42 @@
 }
 
 .SongDetails1{
-    position: relative;
-    width: 95%;
-    height: auto;
-    padding: 10px;
-    background: transparent;
-    text-align: left;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+   position: relative;
+   width: 95%;
+   height: 30%;
+   bottom: 0;
+   top: 25%;
+   padding: 1%;
+   text-align: left;
+   background: transparent;
+   overflow-y: auto;
+   overflow-x: hidden;
+   font-size: 15px;
+   font-style: italic;
 }
 
 .AudioControls{
-    position: relative;
-    width: 95%;
-    left: 2%;
-    height: 10%;
-    background: transparent;
-    top:10%;
-    border-radius: 10px ;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    display: inline-flex;
+   position: absolute;
+   width: 100%;
+   height: 40px;
+   background: transparent;
+   bottom: 0;
+   display: inline-flex;
 }
 
 .FunctionButtons{
-    position: relative;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    font-size: 25px;
-    font-style: italic;
-    margin-right: auto;
-    background-color: rgb(8, 0, 56);
-    text-align: center;
-    width: 48%;
-    height: 35px;
-    color: teal;
-    border-radius: 10px;
+ width: 40%;
+ height: 30px;
+ background: rgb(1, 1, 45);
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: auto;
+ margin-bottom: auto;
+ font-size: 25px;
+ font-style: italic;
+ color: teal;
+ text-align: center;
+ border-radius: 20px;
+ padding: 2px;
+
 }
