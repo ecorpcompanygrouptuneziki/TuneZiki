@@ -1,8 +1,9 @@
 SONGS = (element) => {
-    let MusicianImage = document.querySelector('.MusicianImage');
-    MusicianImage.src = element.ArtistImage;
+    let MusicianImage = document.querySelector('.ArtistImage');
     let ArtistSongs1 = document.querySelector('.ArtistSongs1');
+    let SongDetails1 = document.querySelector('.SongDetails1');
     let currentIndex = 0; // Track the current song index
+    let previousImage = null;
   
     // Function to play the next song
     const playNextSong = () => {
@@ -18,6 +19,10 @@ SONGS = (element) => {
     const playSong = () => {
       let song = element.ArtistSongs[currentIndex];
   
+      // Clear existing content
+      ArtistSongs1.innerHTML = '';
+      SongDetails1.innerHTML = '';
+  
       // Create Audio track Name
       let TRACKNAME = document.createElement('h1');
       TRACKNAME.classList.add('TRACKNAME');
@@ -26,13 +31,24 @@ SONGS = (element) => {
       // Create Song Image
       let SongImage = document.createElement('img');
       SongImage.classList.add('SongImage');
-      SongImage.src = song.SongImage;
-      SongImage.alt = song.SongName;
+  
+      // If song has an image, set the source
+      if (song.SongImage) {
+        SongImage.src = song.SongImage;
+        SongImage.alt = song.SongName;
+        previousImage = song.SongImage;
+      } else {
+        // Use the previous image if available
+        if (previousImage) {
+          SongImage.src = element.ArtistImage;
+          SongImage.alt = 'No Image Available';
+        }
+      }
   
       // Create Song Details
       let SongDetails = document.createElement('p');
       SongDetails.classList.add('SongDetails');
-      SongDetails.innerHTML = song.SongDetails;
+      SongDetails.innerHTML = song.SongDetails ? song.SongDetails : 'No song data available';
   
       // Create Audio track
       let TRACK = document.createElement('audio');
@@ -44,10 +60,10 @@ SONGS = (element) => {
       TRACK.addEventListener('ended', playNextSong);
   
       // Append to div
-      ArtistSongs1.innerHTML = ''; // Clear the existing content
       ArtistSongs1.appendChild(TRACKNAME);
-      ArtistSongs1.appendChild(SongImage);
-      ArtistSongs1.appendChild(SongDetails);
+      MusicianImage.innerHTML = '';
+      MusicianImage.appendChild(SongImage);
+      SongDetails1.appendChild(SongDetails);
       ArtistSongs1.appendChild(TRACK);
   
       // Play the song

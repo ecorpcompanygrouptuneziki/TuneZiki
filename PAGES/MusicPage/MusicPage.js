@@ -12,16 +12,11 @@ MUSICPAGE=()=>{
         <div class='ArtistSongs'>
             <img src='../ICONS/back.png' class='BackIcon' onclick='MUSICPAGE()'>
             
-            <div class='ArtistImage'>
-                <img src='' class='MusicianImage'>
-            </div>
+            <div class='ArtistImage'></div>
 
             <div class='ArtistSongs1'></div>
 
-            <div class='ArtistControls'>
-                
-            
-            </div>
+            <div class='SongDetails1'></div>
         
         </div>
     

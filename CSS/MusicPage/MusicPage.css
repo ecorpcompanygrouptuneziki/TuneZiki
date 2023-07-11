@@ -82,7 +82,7 @@
     overflow: hidden;
 }
 
-.MusicianImage{
+.SongImage{
     width: 100%;
     height: 100%;
 }
@@ -111,10 +111,10 @@
     font-style: italic;
 }
 
-.ArtistControls{
+.SongDetails1{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     top: 10%;
     background: red;
 }
