@@ -1,5 +1,6 @@
 ARTISTPAGE=()=>{
     const HOMEPAGEDIV=document.querySelector('#ArtistPage')
+    let ArtistSongs=document.querySelector('.ArtistSongs')
     fetch('https://ecorpcompanygrouptuneziki.github.io/TuneZiki/JSON/MusicPageJson/Artists.json')
     .then(res=>res.json())
     .then(data=>{
@@ -16,9 +17,17 @@ ARTISTPAGE=()=>{
             HOMENEWSTITLE.innerHTML=element.ArtistName
 
              //NEWS TITLE
-             let HOMENEWSIMAGE=document.createElement('img')
-             HOMENEWSIMAGE.classList.add('ARTISTIMAGE')
-             HOMENEWSIMAGE.src=element.ArtistImage
+            let HOMENEWSIMAGE=document.createElement('img')
+            HOMENEWSIMAGE.classList.add('ARTISTIMAGE')
+            HOMENEWSIMAGE.src=element.ArtistImage
+
+            //OPEN ARTISTS SONGS
+            HOMENEWSDIV.addEventListener('click',()=>{
+                ArtistSongs.style.height=100+'%'
+                ARTISTSONGS(element)
+            })
+
+            
 
             //APPEND IT TO DIV
             HOMENEWSDIV.append(HOMENEWSIMAGE)

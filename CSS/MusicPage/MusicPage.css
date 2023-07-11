@@ -62,3 +62,36 @@
     margin-right: auto;
 
 }
+
+.ArtistSongs{
+   position: fixed;
+   width: 100%;
+   height: 0%;
+   bottom: 0;
+   display: block;
+   overflow-y: auto;
+   overflow-x: hidden; 
+}
+
+.ArtistImage{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: transparent;
+    top: 50px;
+    overflow: hidden;
+}
+
+.MusicianImage{
+    width: 100%;
+    height: 100%;
+}
+
+.ArtistSongs1{
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    top: 50%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
