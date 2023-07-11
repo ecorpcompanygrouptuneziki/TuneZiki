@@ -8,7 +8,7 @@ SONGS = (element) => {
     const playNextSong = () => {
       currentIndex++;
       if (currentIndex >= element.ArtistSongs.length) {
-        // If no next song, loop the same song
+        // If no next song, loop back to the first song
         currentIndex = 0;
       }
       playSong();
@@ -23,6 +23,17 @@ SONGS = (element) => {
       TRACKNAME.classList.add('TRACKNAME');
       TRACKNAME.innerHTML = song.SongName;
   
+      // Create Song Image
+      let SongImage = document.createElement('img');
+      SongImage.classList.add('SongImage');
+      SongImage.src = song.SongImage;
+      SongImage.alt = song.SongName;
+  
+      // Create Song Details
+      let SongDetails = document.createElement('p');
+      SongDetails.classList.add('SongDetails');
+      SongDetails.innerHTML = song.SongDetails;
+  
       // Create Audio track
       let TRACK = document.createElement('audio');
       TRACK.classList.add('TRACK');
@@ -34,8 +45,10 @@ SONGS = (element) => {
   
       // Append to div
       ArtistSongs1.innerHTML = ''; // Clear the existing content
-      ArtistSongs1.append(TRACKNAME);
-      ArtistSongs1.append(TRACK);
+      ArtistSongs1.appendChild(TRACKNAME);
+      ArtistSongs1.appendChild(SongImage);
+      ArtistSongs1.appendChild(SongDetails);
+      ArtistSongs1.appendChild(TRACK);
   
       // Play the song
       TRACK.play();

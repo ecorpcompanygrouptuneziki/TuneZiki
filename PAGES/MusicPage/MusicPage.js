@@ -17,6 +17,11 @@ MUSICPAGE=()=>{
             </div>
 
             <div class='ArtistSongs1'></div>
+
+            <div class='ArtistControls'>
+                
+            
+            </div>
         
         </div>
     
