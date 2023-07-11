@@ -1,6 +1,6 @@
 ARTISTPAGE=()=>{
     const HOMEPAGEDIV=document.querySelector('#ArtistPage')
-    fetch('https://ecorpcompanygroupchatlander.github.io/tuneziki/NewsPage.json')
+    fetch('')
     .then(res=>res.json())
     .then(data=>{
         data.reverse()
