@@ -1,6 +1,6 @@
 ARTISTPAGE=()=>{
     const HOMEPAGEDIV=document.querySelector('#ArtistPage')
-    fetch('')
+    fetch('https://ecorpcompanygrouptuneziki.github.io/TuneZiki/JSON/MusicPageJson/Artists.json')
     .then(res=>res.json())
     .then(data=>{
         data.reverse()
@@ -13,12 +13,12 @@ ARTISTPAGE=()=>{
             //NEWS TITLE
             let HOMENEWSTITLE=document.createElement('h1')
             HOMENEWSTITLE.classList.add('ARTISTNAME')
-            HOMENEWSTITLE.innerHTML=element.NewsTopic
+            HOMENEWSTITLE.innerHTML=element.ArtistName
 
              //NEWS TITLE
              let HOMENEWSIMAGE=document.createElement('img')
              HOMENEWSIMAGE.classList.add('ARTISTIMAGE')
-             HOMENEWSIMAGE.src=element.NewsImage
+             HOMENEWSIMAGE.src=element.ArtistImage
 
             //APPEND IT TO DIV
             HOMENEWSDIV.append(HOMENEWSIMAGE)
