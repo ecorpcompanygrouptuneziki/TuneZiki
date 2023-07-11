@@ -113,9 +113,10 @@
 
 .SongDetails1{
     position: relative;
-    width: 100%;
+    width: 95%;
     height: auto;
-    top: 10%;
     padding: 10px;
+    top: 10%;
     background: transparent;
+    text-align: left;
 }
