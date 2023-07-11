@@ -13,7 +13,7 @@ MUSICPAGE=()=>{
             <img src='../ICONS/back.png' class='BackIcon' onclick='MUSICPAGE()'>
             
             <div class='ArtistImage'>
-                <img src='../ICONS/back.png' class='MusicianImage'>
+                <img src='' class='MusicianImage'>
             </div>
 
             <div class='ArtistSongs1'></div>

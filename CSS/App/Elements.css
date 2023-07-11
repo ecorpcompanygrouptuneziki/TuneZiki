@@ -31,3 +31,19 @@ input{
     border: none;
     text-align: center;
 }
+
+audio{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+}
+
+audio::-webkit-media-controls-panel {
+    background: none;
+    outline: none;
+  }
+  
+  audio::-webkit-media-controls {
+    background: none;
+  }
+  

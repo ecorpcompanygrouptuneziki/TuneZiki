@@ -88,10 +88,25 @@
 }
 
 .ArtistSongs1{
-    position: absolute;
-    width: 100%;
+    position: relative;
+    width: 95%;
+    left: 2%;
+    border-radius: 10px;
     background-color: transparent;
     top: 50%;
+    height: auto;
     overflow-y: auto;
     overflow-x: hidden;
+    bottom: 0;
+    border: 1px solid white;
+
+}
+
+.TRACKNAME{
+    position: relative;
+    text-align: center;
+    color: teal;
+    margin-top: 1rem;
+    font-size: 25px;
+    font-style: italic;
 }
