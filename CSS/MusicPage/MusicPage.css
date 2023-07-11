@@ -78,6 +78,8 @@
     width: 100%;
     height: auto;
     background: transparent;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     top: 50px;
     overflow: hidden;
 }
@@ -92,13 +94,15 @@
     width: 95%;
     left: 2%;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: rgb(8, 0, 56);
     top: 10%;
     height: auto;
     overflow-y: auto;
     overflow-x: hidden;
     bottom: 0;
     border: 1px solid white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -120,6 +124,8 @@
     top: 10%;
     background: transparent;
     text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .AudioControls{
@@ -131,6 +137,7 @@
     top:10%;
     border-radius: 10px ;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     display: inline-flex;
 }
 
