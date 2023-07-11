@@ -10,11 +10,13 @@ MUSICPAGE=()=>{
         <div class='OtherDiv' id='ArtistPage'></div>
 
         <div class='ArtistSongs'>
-            <img src='../ICONS/back.png' class='BackIcon' onclick='MUSICPAGE()'>
+            <img src='../ICONS/close.png' class='BackIcon' onclick='CLOSEMUSICPAGE()'>
             
             <div class='ArtistImage'></div>
 
             <div class='ArtistSongs1'></div>
+            
+            <div class='AudioControls'></div>
 
             <div class='SongDetails1'></div>
         
