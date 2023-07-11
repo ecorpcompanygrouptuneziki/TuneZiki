@@ -84,7 +84,7 @@ SONGS = (element) => {
   // Add back button if not already added
   let backButton = AudioControls.querySelector('.FunctionButtons.Back');
   if (!backButton) {
-    backButton = document.createElement('button');
+    backButton = document.createElement('h1');
     backButton.classList.add('FunctionButtons', 'Back');
     backButton.textContent = 'Back';
     backButton.addEventListener('click', playPreviousSong);
@@ -94,7 +94,7 @@ SONGS = (element) => {
   // Add next button if not already added
   let nextButton = AudioControls.querySelector('.FunctionButtons.Next');
   if (!nextButton) {
-    nextButton = document.createElement('button');
+    nextButton = document.createElement('h1');
     nextButton.classList.add('FunctionButtons', 'Next');
     nextButton.textContent = 'Next';
     nextButton.addEventListener('click', playNextSong);
