@@ -2,7 +2,7 @@ SONGS = (element) => {
   let MusicianImage = document.querySelector('.ArtistImage');
   let ArtistSongs1 = document.querySelector('.ArtistSongs1');
   let SongDetails1 = document.querySelector('.SongDetails1');
-  let AudioControls=document.querySelector('.AudioControls')
+  let AudioControls = document.querySelector('.AudioControls');
   let currentIndex = 0; // Track the current song index
   let previousImage = null;
 
@@ -81,17 +81,23 @@ SONGS = (element) => {
   // Play the first song
   playSong();
 
-  // Add back button
-  let backButton = document.createElement('button');
-  backButton.classList.add('FunctionButtons')
-  backButton.textContent = 'Back';
-  backButton.addEventListener('click', playPreviousSong);
-  AudioControls.appendChild(backButton);
+  // Add back button if not already added
+  let backButton = AudioControls.querySelector('.FunctionButtons.Back');
+  if (!backButton) {
+    backButton = document.createElement('button');
+    backButton.classList.add('FunctionButtons', 'Back');
+    backButton.textContent = 'Back';
+    backButton.addEventListener('click', playPreviousSong);
+    AudioControls.appendChild(backButton);
+  }
 
-  // Add next button
-  let nextButton = document.createElement('button');
-  nextButton.classList.add('FunctionButtons')
-  nextButton.textContent = 'Next';
-  nextButton.addEventListener('click', playNextSong);
-  AudioControls.appendChild(nextButton);
+  // Add next button if not already added
+  let nextButton = AudioControls.querySelector('.FunctionButtons.Next');
+  if (!nextButton) {
+    nextButton = document.createElement('button');
+    nextButton.classList.add('FunctionButtons', 'Next');
+    nextButton.textContent = 'Next';
+    nextButton.addEventListener('click', playNextSong);
+    AudioControls.appendChild(nextButton);
+  }
 };
