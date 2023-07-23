@@ -1,0 +1,38 @@
+.AccountPageDivHolder{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 10%;
+    bottom: 10%;
+    background: #010114;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: block;
+}
+
+.MyProfileData{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0%;
+    bottom: 0%;
+    background: #010114;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    left: 0;
+}
+
+.MySettings{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0%;
+    bottom: 0%;
+    background: #010114;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    left: 100%;
+}
+

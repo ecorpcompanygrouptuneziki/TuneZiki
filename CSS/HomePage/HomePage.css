@@ -1,0 +1,89 @@
+.HomePage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #010114;
+    overflow: hidden;
+    left: 0;  
+}
+
+.CatergoriesPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #010114;
+    overflow: hidden;
+    left: 100%; 
+}
+
+.MusicPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #010114;
+    overflow: hidden;
+    left: 200%; 
+}
+
+.UserAccountPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #010114;
+    overflow: hidden;
+    left: 300%; 
+}
+
+.PrivacyPolicyPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #010114;
+    overflow: hidden;
+    left: 400%; 
+}
+
+.HelpPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #010114;
+    overflow: hidden;
+    left: 500%; 
+}
+
+.HomeFooterIcons{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HomeNewsFeedDiv{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 10%;
+    background: #010114;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+}
+
+.BackIcon{
+    position: absolute;
+    top: 0;
+    width: 20px;
+    padding: 10px;
+    margin-top: 1rem;
+}

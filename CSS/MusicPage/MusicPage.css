@@ -1,0 +1,160 @@
+.SearchInput{
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    background: transparent;
+    border-radius: 20px;
+    display: block;
+    padding: 2%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color:gainsboro;
+    left: 10%;
+}
+
+.NowPlayingDiv{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background: transparent;
+    display: block;
+}
+
+.SongImage{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+.AudioControls{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background: #01011e;
+    display: block;
+}
+
+.ArtistName{
+    position: relative;
+    color: teal;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Trackname{
+    position: relative;
+    color: teal;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.AudioButtonsControls{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    display: block;
+}
+
+.AudioButtons{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    left: 0;
+}
+
+.AudioFunctions{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: #000031;
+    display: inline-flex;
+}
+
+.NEXTBUTTON{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #060025;
+    display: inline-flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+.FunctionTags{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    color: teal;
+}
+
+.LyricsIcon{
+    position: absolute;
+    top: 0;
+    width: 30px;
+    padding: 10px;
+    margin-top: 0.5rem;
+    right: 2%;
+}
+
+.SONGSLYRICS{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background: transparent;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.SongTitleLyrics{
+    position: relative;
+    font-size: 25px;
+    color: teal;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+}
+
+.LyricsHolders{
+    width: 95%;
+    position: relative;
+    color: rgb(211, 208, 235);
+    padding: 2%;
+    text-align: left;
+    font-style: italic;
+    top: 0;
+    margin-bottom: 2rem;
+}

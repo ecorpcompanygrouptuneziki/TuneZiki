@@ -1,0 +1,67 @@
+header{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: #01011e;
+    display: inline-flex;
+    top: 0;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: #01011e;
+    display: inline-flex;
+    bottom: 0;
+}
+audio {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+  }
+
+  audio::-webkit-media-controls-enclosure {
+    background-color: rgb(147, 147, 151);
+    border-radius: 0;
+    max-width: none;
+    outline: none;
+  }
+
+  audio::-webkit-media-controls-fullscreen-button {
+    color: white;
+    background: rgb(48, 2, 107);
+  }
+
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display,
+  audio::-webkit-media-controls-timeline {
+    color: white;
+  }
+
+  audio::-webkit-media-controls-play-button,
+  audio::-webkit-media-controls-pause-button {
+    color: white;
+    background-color: rgb(60, 49, 100);
+    border-color: white;
+    border-radius: 20px;
+}
+
+form{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+input{
+    position: relative;
+    width: 80%;
+    margin-top: 10%;
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+

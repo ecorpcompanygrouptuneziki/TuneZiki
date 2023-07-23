@@ -1,0 +1,72 @@
+.SplashScreenImage{
+    position: relative;
+    top: 20%;
+    width: 80%;
+    height: auto;
+    left: 10%;
+}
+
+.CompanyName{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    background: #010114;
+    display: inline-flex;
+    left: 0;
+}
+
+.Company_Name{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 25px;
+    display: block;
+    color: teal;
+}
+
+.CompanyNameTop{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    background: #010114;
+    display: inline-flex;
+    left: 0;
+}
+
+.AppName{
+    position: relative;
+    text-align: center;
+    top: 40%;
+    font-size: 30px;
+    font-style: italic;
+    color: teal;
+}
+
+.LogInButton5{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 48%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: blue;
+}
+
+.CompanyNameDIv{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    display: inline-flex;
+    background: #01011e;
+}

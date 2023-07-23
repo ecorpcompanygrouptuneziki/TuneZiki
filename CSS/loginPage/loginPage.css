@@ -1,0 +1,114 @@
+.AppLogo{
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 20px;
+    color: teal;
+    font-style: italic;
+}
+
+.LogInButton{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    left: 2%;
+    margin-top: 1rem;
+    background: blue;
+}
+
+.AppLogo1{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5%;
+    color: teal;
+}
+
+.AppLogo2{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10%;
+    font-size: 25px;
+    color: teal;
+}
+
+.LoginWith{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 180px;
+    background: #000033;
+    display: block;   
+}
+
+.LogInButton1{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    left: 2%;
+    margin-top: 1rem;
+    background: blue;
+}
+
+.Message{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background: rgb(0, 0, 59);
+}
+
+.LOGINDIV{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #01011e;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ProfileImagePreviewer{
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+
+.App_Name1{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: teal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    left: 5%;
+}
+
+.BackLinks{
+    position: absolute;
+    left: 45%;
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.BackLinks1{
+    position: absolute;
+    right: 5%;
+    width: 25px;
+    height: 25px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}

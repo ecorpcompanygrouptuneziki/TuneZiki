@@ -1,0 +1,10 @@
+.PrivacyPage{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background: rgb(9, 1, 30);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
